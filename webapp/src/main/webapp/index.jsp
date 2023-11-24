@@ -1,75 +1,16 @@
-<!DOCTYPE html> 
-<html> 
-  
-<head> 
-    <title>HTML Calculator</title> 
-  
-    <!-- For styling -->
-    <style> 
-        table { 
-            border: 1px solid black; 
-            margin-left: auto; 
-            margin-right: auto; 
-        } 
-          
-        input[type="button"] { 
-            width: 100%; 
-            padding: 20px 40px; 
-            background-color: green; 
-            color: white; 
-            font-size: 24px; 
-            font-weight: bold; 
-            border: none; 
-            border-radius: 5px; 
-        } 
-          
-        input[type="text"] { 
-            padding: 20px 30px; 
-            font-size: 24px; 
-            font-weight: bold; 
-            border: none; 
-            border-radius: 5px; 
-            border: 2px solid black; 
-        } 
-    </style> 
-</head> 
-  
-<body> 
-  
-    <!-- Create table -->
-    <table id="calcu"> 
-        <tr> 
-            <td colspan="3"> 
-                <input type="text" id="result"> 
-            </td> 
-            <td><input type="button" value="c"></td> 
-        </tr> 
-  
-        <tr> 
-            <td><input type="button" value="1"></td> 
-            <td><input type="button" value="2"></td> 
-            <td><input type="button" value="3"></td> 
-            <td><input type="button" value="/"></td> 
-        </tr> 
-        <tr> 
-            <td><input type="button" value="4"></td> 
-            <td><input type="button" value="5"></td> 
-            <td><input type="button" value="6"></td> 
-            <td><input type="button" value="*"></td> 
-        </tr> 
-        <tr> 
-            <td><input type="button" value="7"></td> 
-            <td><input type="button" value="8"></td> 
-            <td><input type="button" value="9"></td> 
-            <td><input type="button" value="-"></td> 
-        </tr> 
-        <tr> 
-            <td><input type="button" value="0"></td> 
-            <td><input type="button" value="."></td> 
-            <td><input type="button" value="="></td> 
-            <td><input type="button" value="+"></td> 
-        </tr> 
-    </table> 
-</body> 
-  
-</html>
+<Html>    
+<Head>  
+<title>  
+Example of Paragraph tag  
+</title>  
+</Head>  
+<Body>   
+<p> <!-- It is a Paragraph tag for creating the paragraph -->  
+<b> HTML </b> stands for <i> <u> Hyper Text Markup Language. </u> </i> It is used to create a web pages and applications. This language   
+is easily understandable by the user and also be modifiable. It is actually a Markup language, hence it provides a flexible way for designing the  
+web pages along with the text.   
+</p>  
+HTML file is made up of different elements. <b> An element </b> is a collection of <i> start tag, end tag, attributes and the text between them</i>.   
+</p>  
+</Body>  
+</Html>
